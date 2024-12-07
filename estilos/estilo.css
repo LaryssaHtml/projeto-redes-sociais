@@ -13,7 +13,8 @@ html, body {
 }
 
 body {
-    background: url('../videos/4611984-uhd_3840_2160_25fps.mp4');
+    background: url('../imagens/pexels-josh-hild-1270765-19543998.jpg') no-repeat center fixed;
+    background-size: cover;
 }
 
 main {
@@ -32,12 +33,23 @@ main {
 }
 
 section#telefone {
-    height: 592px;
-    width: 288px;
+    height: 578px;
+    width: 380px;
     position: absolute;
     top: 50%;
     left: 50%;
+    
     transform: translate(-50%, -50%);
-    background-image: url('../imagens/telefone3.png');
+    background-image: url('../imagens/telefone6.png');
     background-repeat: no-repeat;
+    
+}
+
+iframe#tela {
+    position: relative;
+    top: 16px;
+    left: 67px;
+    width: 263px;
+    height: 546px;
+   
 }
