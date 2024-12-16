@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: url('../imagens/pexels-josh-hild-1270765-19543998.jpg') no-repeat center fixed;
+    background: url('../imagens/fundo003.jpg') no-repeat center fixed;
     background-size: cover;
 }
 
@@ -38,7 +38,6 @@ section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
-    
     transform: translate(-50%, -50%);
     background-image: url('../imagens/telefone6.png');
     background-repeat: no-repeat;
@@ -48,8 +47,30 @@ section#telefone {
 iframe#tela {
     position: relative;
     top: 16px;
-    left: 67px;
-    width: 263px;
-    height: 546px;
-   
+    left: 69px;
+    width: 259px;
+    height: 548px;
+    border-radius: 31px;
+}
+
+section#redes-sociais {
+    float: right;
+}
+
+section#redes-sociais > a > img {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+      border: 2px solid rgba(255, 255, 255, 0.63);
+      transform: translate(-5px, -5px);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+      transition: transform 0.9s, border 1s;
 }
